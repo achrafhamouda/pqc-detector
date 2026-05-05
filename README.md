@@ -1,4 +1,4 @@
-# 🔐 PQC Detector
+# PQC Detector
 
 > Détection automatique de faiblesses dans les implémentations post-quantiques par IA
 
@@ -9,7 +9,7 @@
 
 ---
 
-## 📌 Description
+## Description
 
 **PQC Detector** est un outil d'analyse statique qui détecte automatiquement les faiblesses de sécurité dans du code Python utilisant les algorithmes de cryptographie post-quantique (Kyber, Dilithium).
 
@@ -17,7 +17,7 @@ Les algorithmes PQC comme **Kyber** et **Dilithium** sont mathématiquement soli
 
 ---
 
-## ⚠️ Faiblesses détectées
+## Faiblesses détectées
 
 | Type | Description | Sévérité |
 |------|-------------|----------|
@@ -28,7 +28,7 @@ Les algorithmes PQC comme **Kyber** et **Dilithium** sont mathématiquement soli
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 Code source Python (PQC)
@@ -48,7 +48,7 @@ Code source Python (PQC)
 
 ---
 
-## 🚀 Installation
+## Installation
 
 ```bash
 # Cloner le repo
@@ -64,7 +64,7 @@ cd frontend && npm install && cd ..
 
 ---
 
-## 🔍 Utilisation
+## Utilisation
 
 ### Ligne de commande
 ```bash
@@ -95,7 +95,7 @@ python test.py
 
 ---
 
-## 📊 Résultats
+## Résultats
 
 ```
 PQC Detector - end-to-end test on 26 files
@@ -109,7 +109,7 @@ weakness-type detection rate : 24/24 (100.0%)
 
 ---
 
-## 📁 Structure du projet
+## Structure du projet
 
 ```
 pqc_detector/
@@ -127,7 +127,7 @@ pqc_detector/
 
 ---
 
-## 🧰 Stack technique
+## Stack technique
 
 | Composant | Technologie |
 |-----------|-------------|
@@ -140,7 +140,7 @@ pqc_detector/
 
 ---
 
-## 👨‍💻 Auteur
+## Auteur
 
 Projet académique — **ENSA Beni Mellal**
 Filière : Intelligence Artificielle & Cybersécurité
