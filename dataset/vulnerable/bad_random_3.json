@@ -1,0 +1,8 @@
+{
+  "file": "dataset/vulnerable/bad_random_3.py",
+  "algorithm": "Dilithium3",
+  "label": "vulnerable",
+  "weakness_type": "weak_randomness",
+  "severity": "critical",
+  "description": "`from random import getrandbits` brings the weak PRNG into the local namespace; the call site uses bare `getrandbits(...)`. Used to derive signing-key entropy. Predictable PRNG breaks unforgeability of the signature scheme."
+}

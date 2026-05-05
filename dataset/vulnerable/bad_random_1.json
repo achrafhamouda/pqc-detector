@@ -1,0 +1,8 @@
+{
+  "file": "dataset/vulnerable/bad_random_1.py",
+  "algorithm": "Kyber768",
+  "label": "vulnerable",
+  "weakness_type": "weak_randomness",
+  "severity": "critical",
+  "description": "Key derivation seed produced by random.randint (Mersenne Twister) instead of os.urandom or secrets. Predictable PRNG output enables key recovery and breaks IND-CCA security of the KEM."
+}

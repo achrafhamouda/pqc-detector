@@ -1,0 +1,8 @@
+{
+  "file": "dataset/vulnerable/wrong_params_3.py",
+  "algorithm": "Dilithium2",
+  "label": "vulnerable",
+  "weakness_type": "insufficient_security_parameters",
+  "severity": "high",
+  "description": "Signature scheme uses Dilithium2 (ML-DSA-44, NIST level 2). Policy requires Dilithium3 (ML-DSA-65, level 3)."
+}

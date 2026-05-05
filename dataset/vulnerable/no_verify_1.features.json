@@ -1,0 +1,76 @@
+{
+  "file": "dataset\\vulnerable\\no_verify_1.py",
+  "loc": 26,
+  "imports": [
+    {
+      "type": "from_import",
+      "module": "dilithium_py.dilithium",
+      "name": "Dilithium3",
+      "alias": null,
+      "line": 6
+    }
+  ],
+  "imported_modules": [
+    "dilithium_py"
+  ],
+  "functions_defined": [
+    "receive_and_process",
+    "process"
+  ],
+  "classes_defined": [],
+  "calls": [
+    {
+      "name": "Dilithium3.verify",
+      "line": 11
+    },
+    {
+      "name": "process",
+      "line": 13
+    },
+    {
+      "name": "message.decode",
+      "line": 17
+    },
+    {
+      "name": "Dilithium3.keygen",
+      "line": 21
+    },
+    {
+      "name": "Dilithium3.sign",
+      "line": 23
+    },
+    {
+      "name": "print",
+      "line": 26
+    },
+    {
+      "name": "receive_and_process",
+      "line": 26
+    }
+  ],
+  "call_names": [
+    "Dilithium3.verify",
+    "process",
+    "message.decode",
+    "Dilithium3.keygen",
+    "Dilithium3.sign",
+    "print",
+    "receive_and_process"
+  ],
+  "call_counts": {
+    "Dilithium3.verify": 1,
+    "process": 1,
+    "message.decode": 1,
+    "Dilithium3.keygen": 1,
+    "Dilithium3.sign": 1,
+    "print": 1,
+    "receive_and_process": 1
+  },
+  "randomness": {
+    "uses_random": false,
+    "uses_os_urandom": false,
+    "uses_secrets": false,
+    "weak_random_calls": [],
+    "secure_random_calls": []
+  }
+}

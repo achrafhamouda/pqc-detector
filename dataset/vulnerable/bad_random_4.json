@@ -1,0 +1,8 @@
+{
+  "file": "dataset/vulnerable/bad_random_4.py",
+  "algorithm": "Kyber768",
+  "label": "vulnerable",
+  "weakness_type": "weak_randomness",
+  "severity": "critical",
+  "description": "Key seed assembled with `random.choices(ALPHABET, k=...)`. Although the API looks 'random enough', it is backed by Mersenne Twister and produces fully predictable bytes."
+}

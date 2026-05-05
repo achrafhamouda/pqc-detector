@@ -1,0 +1,8 @@
+{
+  "file": "dataset/vulnerable/key_reuse_5.py",
+  "algorithm": "Kyber768+AES-GCM",
+  "label": "vulnerable",
+  "weakness_type": "key_and_nonce_reuse",
+  "severity": "critical",
+  "description": "AES-GCM encrypt() is called with a literal nonce (`b'\\x42' * 12`) inlined at the call site. Two separate invocations under the same key reuse the same nonce, breaking GCM."
+}

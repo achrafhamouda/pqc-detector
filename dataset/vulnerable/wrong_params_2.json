@@ -1,0 +1,8 @@
+{
+  "file": "dataset/vulnerable/wrong_params_2.py",
+  "algorithm": "Kyber512",
+  "label": "vulnerable",
+  "weakness_type": "insufficient_security_parameters",
+  "severity": "high",
+  "description": "Direct use of `Kyber512` (NIST category 1, ~AES-128 quantum). Project policy mandates Kyber768 (category 3)."
+}

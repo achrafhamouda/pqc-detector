@@ -1,0 +1,8 @@
+{
+  "file": "dataset/clean/correct_kyber_1.py",
+  "algorithm": "Kyber768",
+  "label": "clean",
+  "weakness_type": "none",
+  "severity": "none",
+  "description": "Reference Kyber768 KEM handshake using library-provided CSPRNG, NIST level 3 parameters, constant-time comparison of decapsulated keys, fresh per-message AES-GCM nonces, and single-use shared secret derivation."
+}

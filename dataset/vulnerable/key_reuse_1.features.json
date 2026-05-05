@@ -1,0 +1,102 @@
+{
+  "file": "dataset\\vulnerable\\key_reuse_1.py",
+  "loc": 29,
+  "imports": [
+    {
+      "type": "import",
+      "module": "os",
+      "alias": null,
+      "line": 6
+    },
+    {
+      "type": "from_import",
+      "module": "cryptography.hazmat.primitives.ciphers.aead",
+      "name": "AESGCM",
+      "alias": null,
+      "line": 7
+    },
+    {
+      "type": "from_import",
+      "module": "kyber_py.kyber",
+      "name": "Kyber768",
+      "alias": null,
+      "line": 8
+    }
+  ],
+  "imported_modules": [
+    "cryptography",
+    "kyber_py",
+    "os"
+  ],
+  "functions_defined": [
+    "encrypt_messages"
+  ],
+  "classes_defined": [],
+  "calls": [
+    {
+      "name": "Kyber768.keygen",
+      "line": 12
+    },
+    {
+      "name": "Kyber768.encaps",
+      "line": 13
+    },
+    {
+      "name": "AESGCM",
+      "line": 14
+    },
+    {
+      "name": "aead.encrypt",
+      "line": 20
+    },
+    {
+      "name": "ciphertexts.append",
+      "line": 21
+    },
+    {
+      "name": "encrypt_messages",
+      "line": 27
+    },
+    {
+      "name": "print",
+      "line": 29
+    },
+    {
+      "name": "nonce.hex",
+      "line": 29
+    },
+    {
+      "name": "ct.hex",
+      "line": 29
+    }
+  ],
+  "call_names": [
+    "Kyber768.keygen",
+    "Kyber768.encaps",
+    "AESGCM",
+    "aead.encrypt",
+    "ciphertexts.append",
+    "encrypt_messages",
+    "print",
+    "nonce.hex",
+    "ct.hex"
+  ],
+  "call_counts": {
+    "Kyber768.keygen": 1,
+    "Kyber768.encaps": 1,
+    "AESGCM": 1,
+    "aead.encrypt": 1,
+    "ciphertexts.append": 1,
+    "encrypt_messages": 1,
+    "print": 1,
+    "nonce.hex": 1,
+    "ct.hex": 1
+  },
+  "randomness": {
+    "uses_random": false,
+    "uses_os_urandom": false,
+    "uses_secrets": false,
+    "weak_random_calls": [],
+    "secure_random_calls": []
+  }
+}

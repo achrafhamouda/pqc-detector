@@ -1,0 +1,8 @@
+{
+  "file": "dataset/vulnerable/no_verify_4.py",
+  "algorithm": "Dilithium3",
+  "label": "vulnerable",
+  "weakness_type": "unchecked_signature_verification",
+  "severity": "critical",
+  "description": "Dilithium3.verify() called as a statement inside a try/except that swallows all exceptions. Both failure paths (bool ignored, exception silenced) end up running the downstream handler on unverified input."
+}

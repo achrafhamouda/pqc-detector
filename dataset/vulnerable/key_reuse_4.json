@@ -1,0 +1,8 @@
+{
+  "file": "dataset/vulnerable/key_reuse_4.py",
+  "algorithm": "AES-GCM",
+  "label": "vulnerable",
+  "weakness_type": "key_and_nonce_reuse",
+  "severity": "critical",
+  "description": "Local variable `nonce = b'\\x00' * 12` is assigned once and used in two separate AES-GCM encrypt() calls under the same key. Same-key+same-nonce in GCM is catastrophic."
+}

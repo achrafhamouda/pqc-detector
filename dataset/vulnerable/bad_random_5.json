@@ -1,0 +1,8 @@
+{
+  "file": "dataset/vulnerable/bad_random_5.py",
+  "algorithm": "Dilithium3",
+  "label": "vulnerable",
+  "weakness_type": "weak_randomness",
+  "severity": "critical",
+  "description": "PRNG explicitly seeded from a low-entropy, slowly-rotating value (current hour). All subsequent random draws are deterministic given the timestamp."
+}

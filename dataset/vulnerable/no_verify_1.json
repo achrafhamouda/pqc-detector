@@ -1,0 +1,8 @@
+{
+  "file": "dataset/vulnerable/no_verify_1.py",
+  "algorithm": "Dilithium3",
+  "label": "vulnerable",
+  "weakness_type": "unchecked_signature_verification",
+  "severity": "critical",
+  "description": "The return value of Dilithium3.verify() is discarded and execution proceeds unconditionally. Forged or tampered messages are processed as if authenticated, defeating the purpose of the signature scheme."
+}

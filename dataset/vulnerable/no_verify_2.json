@@ -1,0 +1,8 @@
+{
+  "file": "dataset/vulnerable/no_verify_2.py",
+  "algorithm": "Falcon512",
+  "label": "vulnerable",
+  "weakness_type": "unchecked_signature_verification",
+  "severity": "critical",
+  "description": "Falcon-512 verify() return value is discarded; downstream processing runs unconditionally. Note: the file also uses Falcon-512, which would additionally trigger an `insufficient_security_parameters` finding — primary annotation is the unchecked verification."
+}

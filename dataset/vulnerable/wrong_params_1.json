@@ -1,0 +1,8 @@
+{
+  "file": "dataset/vulnerable/wrong_params_1.py",
+  "algorithm": "ML-KEM (Kyber)",
+  "label": "vulnerable",
+  "weakness_type": "insufficient_security_parameters",
+  "severity": "high",
+  "description": "KEM instantiated with security_level=512 (NIST category 1) where policy mandates security_level=768 (NIST category 3). Downgrading parameters reduces the post-quantum security margin below the required threshold."
+}

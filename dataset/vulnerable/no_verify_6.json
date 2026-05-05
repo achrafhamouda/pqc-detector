@@ -1,0 +1,8 @@
+{
+  "file": "dataset/vulnerable/no_verify_6.py",
+  "algorithm": "Dilithium3",
+  "label": "vulnerable",
+  "weakness_type": "unchecked_signature_verification",
+  "severity": "critical",
+  "description": "`VERIFIERS[alg].verify(pk, msg, sig)` is invoked as a statement with no use of its return. Dynamic dispatch through a dict makes the call harder to spot but the discarded result is the same vulnerability."
+}

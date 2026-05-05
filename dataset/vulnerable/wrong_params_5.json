@@ -1,0 +1,8 @@
+{
+  "file": "dataset/vulnerable/wrong_params_5.py",
+  "algorithm": "Falcon512",
+  "label": "vulnerable",
+  "weakness_type": "insufficient_security_parameters",
+  "severity": "high",
+  "description": "Falcon-512 signature scheme (NIST category 1). Policy requires NIST category 3 — use Falcon-1024 or Dilithium3."
+}

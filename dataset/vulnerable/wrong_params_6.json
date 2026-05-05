@@ -1,0 +1,8 @@
+{
+  "file": "dataset/vulnerable/wrong_params_6.py",
+  "algorithm": "CustomKEM",
+  "label": "vulnerable",
+  "weakness_type": "insufficient_security_parameters",
+  "severity": "high",
+  "description": "A user-defined KEM wrapper class is constructed with `security_level=512`, explicitly downgrading from the default level 3."
+}

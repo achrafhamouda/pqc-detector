@@ -1,0 +1,8 @@
+{
+  "file": "dataset/vulnerable/key_reuse_6.py",
+  "algorithm": "Kyber768+AES-GCM",
+  "label": "vulnerable",
+  "weakness_type": "key_and_nonce_reuse",
+  "severity": "critical",
+  "description": "A single Kyber768-derived key is cached and reused inside a for-loop, alongside a name-bound static nonce. Every iteration encrypts under (key, nonce) = (cached, static), defeating AES-GCM."
+}

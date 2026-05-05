@@ -1,0 +1,8 @@
+{
+  "file": "dataset/vulnerable/no_verify_3.py",
+  "algorithm": "Dilithium3",
+  "label": "vulnerable",
+  "weakness_type": "unchecked_signature_verification",
+  "severity": "critical",
+  "description": "Verification is wrapped in `SignatureChecker.verify()`; the caller invokes it as a statement and discards the bool. Message processing runs regardless of validity."
+}

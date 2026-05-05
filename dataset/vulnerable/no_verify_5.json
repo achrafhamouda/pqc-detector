@@ -1,0 +1,8 @@
+{
+  "file": "dataset/vulnerable/no_verify_5.py",
+  "algorithm": "Dilithium",
+  "label": "vulnerable",
+  "weakness_type": "unchecked_signature_verification",
+  "severity": "critical",
+  "description": "`verify()` imported as a free function via `from dilithium_signature import verify`, then invoked as a statement so its return value is discarded. No class-qualifier at the call site."
+}

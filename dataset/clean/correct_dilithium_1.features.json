@@ -1,0 +1,84 @@
+{
+  "file": "dataset\\clean\\correct_dilithium_1.py",
+  "loc": 31,
+  "imports": [
+    {
+      "type": "from_import",
+      "module": "dilithium_py.dilithium",
+      "name": "Dilithium3",
+      "alias": null,
+      "line": 9
+    }
+  ],
+  "imported_modules": [
+    "dilithium_py"
+  ],
+  "functions_defined": [
+    "sign_message",
+    "verify_and_process"
+  ],
+  "classes_defined": [
+    "InvalidSignature"
+  ],
+  "calls": [
+    {
+      "name": "Dilithium3.sign",
+      "line": 17
+    },
+    {
+      "name": "Dilithium3.verify",
+      "line": 21
+    },
+    {
+      "name": "InvalidSignature",
+      "line": 23
+    },
+    {
+      "name": "message.decode",
+      "line": 24
+    },
+    {
+      "name": "Dilithium3.keygen",
+      "line": 28
+    },
+    {
+      "name": "sign_message",
+      "line": 30
+    },
+    {
+      "name": "print",
+      "line": 31
+    },
+    {
+      "name": "verify_and_process",
+      "line": 31
+    }
+  ],
+  "call_names": [
+    "Dilithium3.sign",
+    "Dilithium3.verify",
+    "InvalidSignature",
+    "message.decode",
+    "Dilithium3.keygen",
+    "sign_message",
+    "print",
+    "verify_and_process"
+  ],
+  "call_counts": {
+    "Dilithium3.sign": 1,
+    "Dilithium3.verify": 1,
+    "InvalidSignature": 1,
+    "message.decode": 1,
+    "Dilithium3.keygen": 1,
+    "sign_message": 1,
+    "print": 1,
+    "verify_and_process": 1
+  },
+  "randomness": {
+    "uses_random": false,
+    "uses_os_urandom": false,
+    "uses_secrets": false,
+    "weak_random_calls": [],
+    "secure_random_calls": []
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "file": "dataset\\vulnerable\\bad_random_1.py",
+  "loc": 24,
+  "imports": [
+    {
+      "type": "import",
+      "module": "random",
+      "alias": null,
+      "line": 6
+    },
+    {
+      "type": "from_import",
+      "module": "kyber_py.kyber",
+      "name": "Kyber768",
+      "alias": null,
+      "line": 7
+    }
+  ],
+  "imported_modules": [
+    "kyber_py",
+    "random"
+  ],
+  "functions_defined": [
+    "generate_weak_seed",
+    "keygen_weak"
+  ],
+  "classes_defined": [],
+  "calls": [
+    {
+      "name": "bytes",
+      "line": 12
+    },
+    {
+      "name": "random.randint",
+      "line": 12
+    },
+    {
+      "name": "range",
+      "line": 12
+    },
+    {
+      "name": "generate_weak_seed",
+      "line": 16
+    },
+    {
+      "name": "Kyber768.keygen_derand",
+      "line": 18
+    },
+    {
+      "name": "keygen_weak",
+      "line": 23
+    },
+    {
+      "name": "print",
+      "line": 24
+    }
+  ],
+  "call_names": [
+    "bytes",
+    "random.randint",
+    "range",
+    "generate_weak_seed",
+    "Kyber768.keygen_derand",
+    "keygen_weak",
+    "print"
+  ],
+  "call_counts": {
+    "bytes": 1,
+    "random.randint": 1,
+    "range": 1,
+    "generate_weak_seed": 1,
+    "Kyber768.keygen_derand": 1,
+    "keygen_weak": 1,
+    "print": 1
+  },
+  "randomness": {
+    "uses_random": true,
+    "uses_os_urandom": false,
+    "uses_secrets": false,
+    "weak_random_calls": [
+      "random.randint"
+    ],
+    "secure_random_calls": []
+  }
+}

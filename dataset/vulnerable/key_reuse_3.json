@@ -1,0 +1,8 @@
+{
+  "file": "dataset/vulnerable/key_reuse_3.py",
+  "algorithm": "Kyber768+AES-GCM",
+  "label": "vulnerable",
+  "weakness_type": "key_and_nonce_reuse",
+  "severity": "critical",
+  "description": "Module-level constant `NONCE = b'\\xab' * 12` is reused across two AES-GCM encrypt() calls under the same KEM-derived key. GCM nonce-reuse leaks the GHASH key H and enables plaintext recovery and forgeries."
+}

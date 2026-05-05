@@ -1,0 +1,8 @@
+{
+  "file": "dataset/vulnerable/bad_random_2.py",
+  "algorithm": "Kyber768",
+  "label": "vulnerable",
+  "weakness_type": "weak_randomness",
+  "severity": "critical",
+  "description": "Standard `random` module imported under an alias (`import random as rng`) and used to derive a Kyber768 seed. The PRNG remains a Mersenne Twister regardless of alias."
+}

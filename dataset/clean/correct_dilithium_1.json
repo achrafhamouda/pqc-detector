@@ -1,0 +1,8 @@
+{
+  "file": "dataset/clean/correct_dilithium_1.py",
+  "algorithm": "Dilithium3",
+  "label": "clean",
+  "weakness_type": "none",
+  "severity": "none",
+  "description": "Reference Dilithium3 signature workflow using library CSPRNG, NIST level 3 parameters, and explicit verification: the verify() return value gates execution and a failed check raises InvalidSignature instead of being silently ignored."
+}

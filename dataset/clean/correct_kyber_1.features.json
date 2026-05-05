@@ -1,0 +1,137 @@
+{
+  "file": "dataset\\clean\\correct_kyber_1.py",
+  "loc": 34,
+  "imports": [
+    {
+      "type": "import",
+      "module": "os",
+      "alias": null,
+      "line": 9
+    },
+    {
+      "type": "from_import",
+      "module": "hmac",
+      "name": "compare_digest",
+      "alias": null,
+      "line": 10
+    },
+    {
+      "type": "from_import",
+      "module": "cryptography.hazmat.primitives.ciphers.aead",
+      "name": "AESGCM",
+      "alias": null,
+      "line": 11
+    },
+    {
+      "type": "from_import",
+      "module": "kyber_py.kyber",
+      "name": "Kyber768",
+      "alias": null,
+      "line": 12
+    }
+  ],
+  "imported_modules": [
+    "cryptography",
+    "hmac",
+    "kyber_py",
+    "os"
+  ],
+  "functions_defined": [
+    "kem_handshake",
+    "encrypt_message"
+  ],
+  "classes_defined": [],
+  "calls": [
+    {
+      "name": "Kyber768.keygen",
+      "line": 16
+    },
+    {
+      "name": "Kyber768.encaps",
+      "line": 17
+    },
+    {
+      "name": "Kyber768.decaps",
+      "line": 18
+    },
+    {
+      "name": "compare_digest",
+      "line": 20
+    },
+    {
+      "name": "ValueError",
+      "line": 21
+    },
+    {
+      "name": "AESGCM",
+      "line": 26
+    },
+    {
+      "name": "os.urandom",
+      "line": 27
+    },
+    {
+      "name": "aead.encrypt",
+      "line": 28
+    },
+    {
+      "name": "kem_handshake",
+      "line": 32
+    },
+    {
+      "name": "encrypt_message",
+      "line": 33
+    },
+    {
+      "name": "print",
+      "line": 34
+    },
+    {
+      "name": "nonce.hex",
+      "line": 34
+    },
+    {
+      "name": "ct_msg.hex",
+      "line": 34
+    }
+  ],
+  "call_names": [
+    "Kyber768.keygen",
+    "Kyber768.encaps",
+    "Kyber768.decaps",
+    "compare_digest",
+    "ValueError",
+    "AESGCM",
+    "os.urandom",
+    "aead.encrypt",
+    "kem_handshake",
+    "encrypt_message",
+    "print",
+    "nonce.hex",
+    "ct_msg.hex"
+  ],
+  "call_counts": {
+    "Kyber768.keygen": 1,
+    "Kyber768.encaps": 1,
+    "Kyber768.decaps": 1,
+    "compare_digest": 1,
+    "ValueError": 1,
+    "AESGCM": 1,
+    "os.urandom": 1,
+    "aead.encrypt": 1,
+    "kem_handshake": 1,
+    "encrypt_message": 1,
+    "print": 1,
+    "nonce.hex": 1,
+    "ct_msg.hex": 1
+  },
+  "randomness": {
+    "uses_random": false,
+    "uses_os_urandom": true,
+    "uses_secrets": false,
+    "weak_random_calls": [],
+    "secure_random_calls": [
+      "os.urandom"
+    ]
+  }
+}

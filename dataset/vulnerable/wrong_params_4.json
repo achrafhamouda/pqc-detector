@@ -1,0 +1,8 @@
+{
+  "file": "dataset/vulnerable/wrong_params_4.py",
+  "algorithm": "ML-KEM-512",
+  "label": "vulnerable",
+  "weakness_type": "insufficient_security_parameters",
+  "severity": "high",
+  "description": "ML-KEM-512 referenced via attribute access (`pqc.ML_KEM_512`). NIST category 1, below the required level 3."
+}

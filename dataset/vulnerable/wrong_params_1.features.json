@@ -1,0 +1,58 @@
+{
+  "file": "dataset\\vulnerable\\wrong_params_1.py",
+  "loc": 32,
+  "imports": [],
+  "imported_modules": [],
+  "functions_defined": [
+    "__init__",
+    "keygen",
+    "encaps",
+    "setup_kem"
+  ],
+  "classes_defined": [
+    "KyberKEM"
+  ],
+  "calls": [
+    {
+      "name": "ValueError",
+      "line": 13
+    },
+    {
+      "name": "KyberKEM",
+      "line": 25
+    },
+    {
+      "name": "kem.keygen",
+      "line": 26
+    },
+    {
+      "name": "setup_kem",
+      "line": 31
+    },
+    {
+      "name": "print",
+      "line": 32
+    }
+  ],
+  "call_names": [
+    "ValueError",
+    "KyberKEM",
+    "kem.keygen",
+    "setup_kem",
+    "print"
+  ],
+  "call_counts": {
+    "ValueError": 1,
+    "KyberKEM": 1,
+    "kem.keygen": 1,
+    "setup_kem": 1,
+    "print": 1
+  },
+  "randomness": {
+    "uses_random": false,
+    "uses_os_urandom": false,
+    "uses_secrets": false,
+    "weak_random_calls": [],
+    "secure_random_calls": []
+  }
+}

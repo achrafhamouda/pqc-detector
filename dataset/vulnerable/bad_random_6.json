@@ -1,0 +1,8 @@
+{
+  "file": "dataset/vulnerable/bad_random_6.py",
+  "algorithm": "Kyber768",
+  "label": "vulnerable",
+  "weakness_type": "weak_randomness",
+  "severity": "critical",
+  "description": "Mixed-quality entropy: nonce uses os.urandom but the long-term secret is built from random.getrandbits, leaving the actual key material predictable while the surface looks secure."
+}
