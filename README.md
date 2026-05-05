@@ -142,7 +142,7 @@ pqc_detector/
 
 ## Auteur
 
-Projet académique — **ENSA Beni Mellal**
+Achraf HAMOUDA — **ENSA Beni Mellal**
 Filière : Intelligence Artificielle & Cybersécurité
 Module : Cryptographie
 Année universitaire : 2025 / 2026
