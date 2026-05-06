@@ -1,6 +1,6 @@
 # PQC Detector
 
-> Détection automatique de faiblesses dans les implémentations post-quantiques par IA
+> Détection automatique de faiblesses dans les implémentations post-quantiques par IA 
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue)
 ![Accuracy](https://img.shields.io/badge/Accuracy-100%25-green)
