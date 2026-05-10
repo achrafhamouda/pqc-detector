@@ -28,7 +28,7 @@ Les algorithmes PQC comme **Kyber** et **Dilithium** sont mathématiquement soli
 
 ---
 
-## Architecture
+## Architecture     
 
 ```
 Code source Python (PQC)
