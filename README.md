@@ -139,7 +139,6 @@ pqc_detector/
 | Tests | Script end-to-end custom |
 
 ---
-
 ## Auteur
 
 Achraf HAMOUDA — **ENSA Beni Mellal**
