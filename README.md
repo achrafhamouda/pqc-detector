@@ -9,7 +9,7 @@
 
 ---
 
-## Description
+## Description              
 
 **PQC Detector** est un outil d'analyse statique qui détecte automatiquement les faiblesses de sécurité dans du code Python utilisant les algorithmes de cryptographie post-quantique (Kyber, Dilithium).
 
